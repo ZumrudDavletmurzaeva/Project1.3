@@ -1,0 +1,239 @@
+
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('/fonts/TTLakes-Regular.eot');
+  src: local('TT Lakes Regular'), local('TTLakes-Regular'),
+      url('/fonts/TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/TTLakes-Regular.woff') format('woff'),
+      url('/fonts/TTLakes-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('/fonts/TTLakes-Bold.eot');
+  src: local('TT Lakes Bold'), local('TTLakes-Bold'),
+      url('/fonts/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/TTLakes-Bold.woff') format('woff'),
+      url('/fonts/TTLakes-Black.woff') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+.mobile-page{
+  position: fixed;
+  width: 320px;
+  min-height: 100vh;
+  margin: 0 auto;
+  font-family: 'TT lakes';
+  font-weight: normal;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+}
+
+.header__mobile-menu{
+  display: flex;
+  flex-direction: row;
+  height: 116px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.header-menu-icon:first-of-type{
+  margin-top: 23px;
+}
+.header-menu-icon:last-of-type{
+  margin-top: 23px;
+}
+
+.header-menu__btn{
+  width:40px;
+  height:40px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border:none;
+  box-sizing: border-box;
+  background-color:transparent;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+
+.btn-burger2{
+  background-image: url("../img/burger2.svg");
+}
+
+.btn-burger2:hover{
+  opacity: 0.5;
+}
+.btn-search{
+  background-image: url("../img/search.svg");
+}
+
+.btn-search:hover{
+  opacity: 0.5;
+}
+
+.header-menu-logo{
+  background-image: url("../img/Group.svg");
+  width: 97px;
+  height: 51px;
+  margin-left: 17px;
+  margin-right: 79px;
+  margin-top: 19px;
+  cursor: pointer;
+}
+
+.header-menu-logo:hover{
+  filter: drop-shadow(0 0 1.3px);
+}
+
+
+
+.main-mobile{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 222px;
+}
+
+.main-mobile-navigation{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-bottom: 0px;
+}
+
+
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+
+.main-mobile-list{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.main-mobile-text{
+  text-decoration: none;
+  color:#1B1C21;
+  padding-left: 24px;
+  margin-bottom: 32px;
+  font-size: 16px;
+  line-height: 24px;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+
+
+li{
+  margin-bottom: 32px;
+}
+
+.main-mobile-text:hover{
+  color:  #7E7E82;
+  border-left: 4px solid #41F6D7;
+  padding-left: 20px; 
+  
+}
+
+
+.btn-call{
+  background-image: url("../img/call.svg");
+  cursor: pointer;
+}
+
+.btn-call:hover{
+  opacity: 0.5;
+}
+
+.btn-chat{
+  background-image: url("../img/chat.svg");
+  cursor: pointer;
+}
+.btn-chat:hover{
+  opacity: 0.5;
+}
+
+.btn-profile{
+  background-image: url("../img/profile.svg");
+  cursor: pointer;
+}
+
+.btn-profile:hover{
+  opacity: 0.5;
+}
+
+.menu-icon{
+   margin-right: 16px;
+}
+
+.mobile-contact{
+ height: 124px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  margin-top: 236px;
+  align-items: flex-start;
+}
+
+.footer-email{
+  margin-top: 16px;
+  margin-bottom: 12px;
+  line-height: 24px;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+.footer-email:hover{
+  transform: scale(1.4);
+  text-decoration: underline;
+  margin-left: 17px;
+}
+
+.footer-phone{
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footer-phone:hover{
+text-decoration: underline;
+transform: scale(1.1);
+
+}
+
+.footer-language{
+  margin-top: 40px;
+  margin-left: 24px;
+  margin-bottom: 32px;
+}
+.launguage:hover{
+  border-left:none;
+  color:#7E7E82;
+  transform: scale(1.2);
+}
+
+.launguage{
+  font-size: 16px;
+  line-height: 24px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color:#1B1C21;
+}
